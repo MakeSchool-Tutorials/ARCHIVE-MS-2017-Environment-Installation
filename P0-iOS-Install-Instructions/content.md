@@ -19,7 +19,10 @@ Next you should install Command Line Tools, which is a bundle of command-line ba
 
 Once Xcode 7 is installed, you can install Command Line Tools by running this command in terminal:
 
-	xcode-select --install
+	$ xcode-select --install
+	
+> [info]
+> Whenever you see code prefixed with a dollar sign $, that indicates that it's a command to be entered in the command prompt.
 	
 ##Homebrew
 
@@ -27,4 +30,4 @@ Homebrew is a package manager for OS X. It makes it easy to install software pac
 
 To install Homebrew, run this terminal command, which will download and run an install script:
 
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
