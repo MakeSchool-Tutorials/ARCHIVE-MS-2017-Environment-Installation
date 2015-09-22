@@ -41,16 +41,9 @@ As you create each Python project, you will also want to create an associated vi
 
 Download and install Atom. Atom is a an open-source text editor maintained by Github, that we will use to write our Python source.
 
-https://atom.io/
+[https://atom.io/](https://atom.io/)
 
 ##Atom Python Packages
-
-<!--
-Follow the "Linter for Atom" and "Further customisation for Python to follow PEP8" instructions [here](http://www.marinamele.com/install-and-configure-atom-editor-for-python) to install a package that will give you live Python validation as you type.
-
-**Note - You should replace all instanes of `pip` with `pip3` to make sure you're issuing commands to your new Python 3 install, and not the system Python.**
-
--->
 
 *These instructions are derived from [this blog post](http://www.marinamele.com/install-and-configure-atom-editor-for-python)*. 
 
@@ -73,7 +66,7 @@ Finally, we have to make some changes to Atom. First we'll change the init scrip
 
 In the menu, go to Atom --> Open Your Init Script.
 
-<img src="openInitScript.png" alt="Open Init Script" style="width: 200px;"/>
+![Open Your Init Script](openInitScript.png)
 
 Add the following line at the bottom:
 
@@ -91,7 +84,7 @@ Find the `linter-flake8` package and click the settings button.
 
 Find the executable path setting:
 
-![](executablePath.png)
+![Executable Path Setting](executablePath.png)
 
 To figure out where the `flake8` executable is located in our filesystem, we can use the `which` command. Go to the terminal and type:
 
