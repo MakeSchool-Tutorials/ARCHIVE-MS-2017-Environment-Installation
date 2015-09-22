@@ -94,7 +94,7 @@ Take the result of that command, and paste it into the exectuable path setting i
 
 > [info]
 > 
-In my case, flake8 was here:
+In my case, `flake8` was here:
 >
 	/Library/Frameworks/Python.framework/Versions/3.5/bin/flake8
 	
