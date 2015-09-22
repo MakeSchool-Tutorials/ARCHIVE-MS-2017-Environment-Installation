@@ -13,7 +13,6 @@ OS X comes with a version of Python (2.7) installed by default. We can call that
 
 So we're going to install the newest Python.
 
-> [info]
 *These instructions are derived from [this great post](http://www.marinamele.com/2014/07/install-python3-on-mac-os-x-and-use-virtualenv-and-virtualenvwrapper.html)*.
 
 Use Homebrew to install Python 3 and its dependencies:
