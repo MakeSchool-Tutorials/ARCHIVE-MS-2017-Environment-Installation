@@ -80,7 +80,7 @@ Next we need to change a setting in the `linter-flake8` package. Go to the Atom 
 
 Find the `linter-flake8` package and click the settings button.
 
-_NOTE: If you don't see a settings button, try restarting Atom_
+*NOTE: If you don't see a settings button, try restarting Atom. Also ensure that you installed Atom into your Applications directory and that you're running that Atom.*
 
 ![linter-flake8](linterflake8.png)
 
